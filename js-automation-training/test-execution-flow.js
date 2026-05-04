@@ -16,23 +16,23 @@ console.log("Step " + stepNumber + ": Opening browser");
 console.log("Status: " + testStatus + "\n");
 
 
-stepNumber = stepNumber + 1;
+stepNumber = stepNumber++;
 console.log("Step " + stepNumber + ": Navigating to login page");
 console.log("Status: " + testStatus + "\n");
 
 
-stepNumber = stepNumber + 1;
+stepNumber = stepNumber++;
 console.log("Step " + stepNumber + ": Entering credentials");
 let username = "sanketj@test.com";
 console.log("Username: " + username);
 console.log("Status: " + testStatus + "\n");
 
 
-stepNumber = stepNumber + 1;
+stepNumber = stepNumber++;
 console.log("Step " + stepNumber + ": Clicking login button");
 console.log("Status: " + testStatus + "\n");
 
-stepNumber = stepNumber + 1;
+stepNumber = stepNumber++;
 testStatus = "COMPLETED";
 
 console.log("Step " + stepNumber + ": Verifying dashboard");
